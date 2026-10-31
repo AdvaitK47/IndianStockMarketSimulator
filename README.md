@@ -1,4 +1,4 @@
-# 📈 Indian Stock Market Simulator (StockSim)
+# 📈 Indian Stock Market Simulator
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/Frontend-React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
@@ -7,7 +7,7 @@
 [![SQLAlchemy](https://img.shields.io/badge/ORM-SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)](https://www.sqlalchemy.org/)
 [![yfinance](https://img.shields.io/badge/Market_Data-Yahoo_Finance-720e9e?style=for-the-badge)](https://pypi.org/project/yfinance/)
 
-> An authentic, real-time paper trading simulator for the Indian Stock Market (NSE / NIFTY 50 and beyond). Practice trading stocks with real market prices, genuine volatility, intraday leverage, and realistic brokerage accounting with zero financial risk.
+> An authentic paper trading simulator for the Indian Stock Market (NSE / NIFTY 50 and beyond). Practice trading stocks with near real-time (15-minute delayed) market prices, genuine volatility, intraday leverage, and realistic brokerage accounting with zero financial risk.
 
 
 
@@ -44,7 +44,7 @@
   * Shares are added to your permanent **Holdings** portfolio and held indefinitely across trading days.
 * **Intraday (MIS - Margin Intraday Square-off)**:
   * **5x Leverage (20% Margin Requirement)**: A ₹10,000 position only blocks ₹2,000 of virtual cash.
-  * Monitored in real-time under the **Positions** tab.
+  * Monitored live (with delayed quotes) under the **Positions** tab.
   * Features auto square-off rules at 15:15 IST before market close.
 
 ---
@@ -228,7 +228,7 @@ npm --prefix frontend run dev
    * Choose **Market**, **Limit**, or **Stop-Loss**.
 4. **Monitor Your Portfolio**:
    * Head over to **Portfolio** to see your active Holdings, Intraday Positions, and Sector Allocation.
-   * Review exact execution prices and profit/loss movements in real time.
+   * Review exact execution prices and profit/loss movements as quotes refresh.
 5. **After-Hours & Weekend Testing**:
    * If you are practicing outside market hours (after 03:30 PM IST or on weekends), visit **Settings** and toggle **Market Replay Mode** to `ACTIVE` to trade 24/7!
 
