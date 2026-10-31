@@ -9,15 +9,7 @@
 
 > An authentic, real-time paper trading simulator for the Indian Stock Market (NSE / NIFTY 50 and beyond). Practice trading stocks with real market prices, genuine volatility, intraday leverage, and realistic brokerage accounting with zero financial risk.
 
----
 
-## 🌟 Why StockSim?
-
-Most stock simulator apps use synthetic random numbers or outdated static CSV data that fail to teach real-world price behavior. **StockSim connects directly to live market feeds** for 100+ leading Indian companies listed on the National Stock Exchange (NSE). 
-
-You trade on real price action, corporate earnings reactions, volume spikes, and macro swings. When Reliance releases results or Infosys moves on earnings, those exact movements reflect on your screen—enabling you to learn and test genuine market strategies risk-free with **₹10,00,000 in virtual capital**.
-
----
 
 ## 🚀 Key Features
 
